@@ -19,13 +19,13 @@ This To-Do List application built with React. It allows users to add, edit, dele
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)  # Replace with your repo URL
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git] # Replace with your repo URL
     ```
 
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd to-do-list-app
+    cd To_Do_App
     ```
 
 3.  **Install dependencies:**
@@ -37,7 +37,7 @@ This To-Do List application built with React. It allows users to add, edit, dele
 # Run the Application 
 
 ```bash
-npm start
+npm run dev 
 
 This will start the development server. Open your browser and navigate to server provided (or the URL displayed in your terminal) to view the application.
 
