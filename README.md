@@ -77,8 +77,11 @@ This is a simple To-Do List application built with React. It allows users to add
 ## How to Run the Application
 
 ```bash
-npm start   # or yarn start
-This will start the development server. Open your browser and navigate to http://localhost:3000 (or the URL displayed in your terminal) to view the application.
+npm start
+
+This will start the development server. Open your browser and navigate to server provided (or the URL displayed in your terminal) to view the application.
+
+-----------------------
 
 Project Structure :
 
