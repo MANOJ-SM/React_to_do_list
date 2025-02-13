@@ -25,7 +25,8 @@ This To-Do List application built with React. It allows users to add, edit, dele
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd To_Do_App
+     cd React_to_do_list
+     cd vite-project
     ```
 
 3.  **Install dependencies:**
