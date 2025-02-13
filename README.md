@@ -41,22 +41,4 @@ npm start
 
 This will start the development server. Open your browser and navigate to server provided (or the URL displayed in your terminal) to view the application.
 
------------------------
 
-Project Structure :
-
-to-do-list-app/
-├── src/
-│   ├── components/
-│   │   ├── App.jsx
-│   │   ├── Header.jsx
-│   │   ├── ToDoList.jsx
-│   │   ├── ToDoItem.jsx
-│   │   └── styles.css
-│   ├── index.js
-│   └── ... other source files
-├── public/
-│   └── index.html
-├── package.json
-├── README.md
-└── ... other project files
