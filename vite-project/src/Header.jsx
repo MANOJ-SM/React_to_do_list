@@ -1,27 +1,38 @@
-// src/components/Header.jsx
 import React, { useState } from 'react';
 
 function Header({ onAddTodo }) {
-  const [newTodo, setNewTodo] = useState('');
+    const [newTodoText, setNewTodoText] = useState('');
 
-  const handleInputChange = (event) => {
-    setNewTodo(event.target.value);
-  };
+    const handleInputChange = (event) => {
+        setNewTodoText(event.target.value);
+    };
 
-  const handleAddTodo = () => {
-    if (newTodo.trim() !== '') {
-      onAddTodo(newTodo.trim());
-      setNewTodo('');
-    }
-  };
+    const handleAddTodoClick = () => {
+        if (newTodoText.trim() !== '') {
+            onAddTodo(newTodoText.trim());
+            setNewTodoText('');
+        }
+    };
 
-  return (
-    <header>
-      <h1>To-Do List</h1>
-      <input type="text" value={newTodo} onChange={handleInputChange} placeholder="Enter a task" />
-      <button onClick={handleAddTodo}>Add</button>
-    </header>
-  );
+    const handleInputKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            handleAddTodoClick();
+        }
+    };
+
+    return (
+        <header>
+            <h1>To-Do List</h1>
+            <input
+                type="text"
+                value={newTodoText}
+                onChange={handleInputChange}
+                onKeyDown={handleInputKeyDown}
+                placeholder="Enter a task"
+            />
+            <button onClick={handleAddTodoClick}>Add</button>
+        </header>
+    );
 }
 
 export default Header;
