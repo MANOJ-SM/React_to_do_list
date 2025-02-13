@@ -34,7 +34,7 @@ This To-Do List application built with React. It allows users to add, edit, dele
     npm install  
     ```
 
-4.  **Run the Application:**
+# Run the Application 
 
 ```bash
 npm start
