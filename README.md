@@ -34,8 +34,7 @@ This To-Do List application built with React. It allows users to add, edit, dele
     npm install  
     ```
 
-
-## How to Run the Application
+4.  **Run the Application:**
 
 ```bash
 npm start
@@ -61,7 +60,3 @@ to-do-list-app/
 ├── package.json
 ├── README.md
 └── ... other project files
-## How to Run the Application
-
-```bash
-npm start   
